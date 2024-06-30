@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://msawood.com
+
+# Sitemaps
+Sitemap: https://msawood.com/sitemap.xml
