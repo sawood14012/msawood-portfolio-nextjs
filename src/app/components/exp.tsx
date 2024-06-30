@@ -26,7 +26,7 @@ const experiences = [
     ]
   },
   {
-    role: "Full Stack Developer Intern",
+    role: "Full Stack Intern",
     org: "Samsung Prism",
     img: "/samsung.png",
     dates: "Jan 2019 - Dec 2019",
@@ -78,7 +78,7 @@ const ExperienceSection = () => {
             <div className="w-28 h-28 mb-4">
             <Image src={experience.img} alt={`${experience.org} logo`} width={112} height={112} className='w-full h-full object-contain' />
             </div>
-            <h3 className="text-4xl animated-gradient2 text-transparent bg-clip-text font-bold">{experience.role}</h3>
+            <h3 className="text-4xl animated-gradient2 text-transparent bg-clip-text text-center md:text-left font-bold ">{experience.role}</h3>
             <h4 className="text-2xl text-gray-700 font-semibold">{experience.org}</h4>
             <span className="text-sm italic font-semibold text-gray-600">{experience.dates}</span>
             <div className="mt-4 space-y-2">

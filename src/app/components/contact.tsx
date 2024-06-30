@@ -36,7 +36,7 @@ const GetInTouchSection = () => {
   return (
     <div className="relative bg-white mx-auto max-w-7xl px-5 py-1 sm:px-1 sm:py-4 lg:px-1">
       <div className="mx-auto max-w-7xl py-1 sm:px-1 sm:py-4 lg:px-1">
-        <h2 className="text-6xl font-bold animated-gradient-title bg-clip-text text-transparent text-center mb-12">
+        <h2 className="text-4xl md:text-6xl font-bold animated-gradient-title bg-clip-text text-transparent text-center mb-12">
           Get in Touch
         </h2>
         <div className="grid px-5 mt-5 sm:grid-cols-1 md:grid-cols-2 gap-4 ">
