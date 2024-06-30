@@ -99,7 +99,7 @@ const ProjectsSection = () => {
 
   return (
     <div className="mx-auto max-w-7xl py-16 px-8">
-      <h2 className="text-6xl font-bold text-center animated-gradient-title bg-clip-text text-transparent mb-12">Projects</h2>
+      <h2 className="text-4xl md:text-6xl font-bold text-center animated-gradient-title bg-clip-text text-transparent mb-12 text-wrap">Projects</h2>
       <div className="masonry-grid">
         {projects.map((project, index) => (
           <div 

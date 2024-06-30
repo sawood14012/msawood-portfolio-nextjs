@@ -45,7 +45,7 @@ const HeroSection = () => {
           <h1 ref={textRef1} className="text-6xl font-bold bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 text-transparent bg-clip-text">Hi!</h1>
           <span ref={emojiRef} className="text-6xl ml-2">👋</span>
         </div>
-        <h1 ref={textRef2} className="text-8xl font-bold bg-gradient-to-r from-yellow-600 via-yellow-500 to-brown-600 text-transparent bg-clip-text">I am Sawood</h1>
+        <h1 ref={textRef2} className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-yellow-600 via-yellow-500 to-brown-600 text-transparent bg-clip-text text-wrap">I am Sawood</h1>
         <p ref={subTextRef} className="text-lg text-gray-500">
           A dedicated DevOps/Quality Engineer with over 5 years of expertise in developing, testing, and deploying applications on hybrid cloud infrastructure. Skilled in maintaining high availability and seamless operations, I stay current with evolving technologies and am committed to continuous learning and growth.
         </p>
