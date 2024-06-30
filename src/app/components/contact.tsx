@@ -55,7 +55,7 @@ const GetInTouchSection = () => {
                     Phone
                 </p>
                 <p className='text-xl px-5 mb-5 font-bold bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 text-transparent bg-clip-text'>
-                    <a href='tel:9710504910387'>+91 8123303633</a>
+                    <a href='tel:918123303633'>+91 8123303633</a>
                 </p>
             </div>
             <div className="col-span-1 mb-5 rounded-lg bg-gray-100">
@@ -63,7 +63,7 @@ const GetInTouchSection = () => {
                     Email
                 </p>
                 <p className='text-xl px-5 mb-5 text-primary font-bold text-lg px-5 mb-5 font-bold bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 text-transparent bg-clip-text'>
-                    <a href='mailto:info@mamun.cloud'>me@msawood.com</a>
+                    <a href='mailto:me@msawood.com'>me@msawood.com</a>
                 </p>
             </div>
             <div className="col-span-1 mb-5 rounded-lg bg-gray-100">
