@@ -26,6 +26,12 @@ const projects = [
     link: "https://mamun.ae/"
   },
   {
+    title: "Arscon Connect Website",
+    description: "JWC India Website Built with NextJS, Tailwind and web3forms ",
+    image: "/projects/11.png",
+    link: "https://arscon.co.in/"
+  },
+  {
     title: "My Safety Plan",
     description: "A Safety Plan App for US veteran's With resources to manage their medications, doctor's appointments etc.",
     image: "/projects/9.png",
