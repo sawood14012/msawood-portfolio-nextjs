@@ -19,9 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script strategy="beforeInteractive" src="/tag.js" />
-        <Script strategy="beforeInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-YCWGZB20CY"></Script>
-        <Script strategy="beforeInteractive" src="/analytics.js" />
+        <Script strategy="afterInteractive" src="/tag.js" />
+        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-YCWGZB20CY"></Script>
+        <Script strategy="afterInteractive" src="/analytics.js" />
+        <Script strategy="lazyOnload" src="https://topmate-embed.s3.ap-south-1.amazonaws.com/v1/topmate-embed.js" user-profile="https://topmate.io/embed/profile/msawood?theme=E18C45" btn-style='{"backgroundColor":"#000","color":"#fff","border":"1px solid #000"}' embed-version="v1" button-text="Let's Connect" position-right="30px" position-bottom="30px" custom-padding="0px" custom-font-size="16px" custom-font-weight="500" custom-width="200px" ></Script>
       </head>
       <body className={inter.className}>
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THDJ56GX"
