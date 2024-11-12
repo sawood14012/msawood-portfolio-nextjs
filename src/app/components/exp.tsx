@@ -8,10 +8,19 @@ gsap.registerPlugin(ScrollTrigger);
 
 const experiences = [
   {
+    role: "Senior DevOps Engineer",
+    org: "Tpconnects",
+    img: "/tpconnects.svg",
+    dates: "Nov 2024 - Present",
+    details: [
+      "Migrating ECS to EKS"
+    ]
+  },
+  {
     role: "Software Quality Engineer",
     org: "Red Hat",
     img: "/redhat.png",
-    dates: "Mar 2020 - Present",
+    dates: "Mar 2020 - Nov 2024",
     details: [
       "Led performance testing and architecture setup for Red Hat Trusted Application Pipelines, including extensive E2E and acceptance tests. Designed and developed various dashboards with ReactJS/ VueJs and GoLang; created custom GitHub Actions for CI/CD, and deployed and maintained ROSA and OpenShift clusters. Built a custom load-testing framework using GoLang, managed RDS, and worked with various AWS services and CI tools like GitLab CI, Jenkins, and ProwCI."
     ]
@@ -66,7 +75,7 @@ const ExperienceSection = () => {
   return (
     <div className="mx-auto max-w-7xl py-16 px-8">
       <h2 className="text-4xl md:text-6xl font-bold text-center animated-gradient-title bg-clip-text mb-12 text-wrap">Experience</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
         {experiences.map((experience, index) => (
           <div 
             key={index} 
